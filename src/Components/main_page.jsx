@@ -37,6 +37,15 @@ export default function MainPage({ color_mode, setColor_mode }) {
   }, []);
 
   useEffect(() => {
+    const interval = setInterval(() => {
+      client.get("/air_quality/get_led_status/").then((res) => {
+        setLed_state(res.data);
+      });
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+
+  useEffect(() => {
     if (thismode === "temperature") {
       setStatusKey("temperature_status");
     }

@@ -1,0 +1,35 @@
+.box {
+  margin: auto;
+  /* width: 80%; */
+  /* height: 100%; */
+  /* max-width: 1200px; */
+  width: 70%;
+  height: 70%;
+  border-radius: 1rem;
+
+  background-color: rgba(255, 255, 255, 0.919);
+}
+.mini {
+  background-color: rgba(94, 82, 187, 0.919);
+  border: 1px solid rgba(94, 82, 187, 0.919);
+
+  box-shadow: 1px 3px 9px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.25);
+  width: 70%;
+  height: 70%;
+  margin-top: 14px;
+  margin-left: 12px;
+  border-radius: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.logo {
+  background: url("data:image/svg+xml;base64,PHN2ZyBpZD0iZjNkNzBhYTMtNjdhYy00MTc2LWE0MzMtYmNlN2FiY2ZlZjg0IiBkYXRhLW5hbWU9IndpcmVmcmFtZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNjQgNjQiPjxjaXJjbGUgaWQ9ImI2OTU5MWM0LTUzNTMtNGY2Yi04NDlhLTk1OGU4ZWY1Njc3ZSIgZGF0YS1uYW1lPSJPdmFsIiBjeD0iMzIiIGN5PSIzMiIgcj0iMzIiIGZpbGw9IiM3ODNiZmYiLz48ZyBpZD0iYjQ3ZTk3NWItNWQ1Zi00N2IxLTljNzYtNWFmOTM4YTQ5NmEyIiBkYXRhLW5hbWU9IkFwcHMiPjxyZWN0IGlkPSJhZjJmY2M2YS02YTRmLTQ5MTMtYWU5NS0yNmM4MTJhYmVhMGEiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIiB4PSIxNi4zODEiIHk9IjE2LjM4MSIgd2lkdGg9IjEyLjE5MDUiIGhlaWdodD0iMTIuMTkwNSIgcng9IjIuMTU3NSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPjxyZWN0IGlkPSJmYmI0ZjJhYS04NDgyLTQyM2QtOGIwYi01ZDNiZjgyOWZmMGQiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIiB4PSIzNS40Mjg2IiB5PSIxNi4zODEiIHdpZHRoPSIxMi4xOTA1IiBoZWlnaHQ9IjEyLjE5MDUiIHJ4PSIyLjE1NzUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz48cmVjdCBpZD0iZjA4ODczOTktMzQ1NS00MGQ5LTllZWQtNTBlOTdlZjFjMTZmIiBkYXRhLW5hbWU9IlJlY3RhbmdsZSIgeD0iMzUuNDI4NiIgeT0iMzUuNDI4NiIgd2lkdGg9IjEyLjE5MDUiIGhlaWdodD0iMTIuMTkwNSIgcng9IjIuMTU3NSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPjxyZWN0IGlkPSJiYTBkNGFiOC1hMWQxLTQ1NmMtYTljOC02ODIyZmJmZGRjZGYiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIiB4PSIxNi4zODEiIHk9IjM1LjQyODYiIHdpZHRoPSIxMi4xOTA1IiBoZWlnaHQ9IjEyLjE5MDUiIHJ4PSIyLjE1NzUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz48L2c+PC9zdmc+");
+}
+
+#show_num {
+  color: aliceblue;
+  text-align: center;
+}

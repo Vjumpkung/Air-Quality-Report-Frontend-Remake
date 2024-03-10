@@ -1,0 +1,12 @@
+.custom-tooltip {
+  border-radius: 10%;
+  font-size: 15px;
+  padding: 10px;
+  visibility: visible;
+}
+
+.recharts-surface {
+  background-color: #ffffff3c;
+  border-radius: 1px;
+  /* padding: 1rem; */
+}

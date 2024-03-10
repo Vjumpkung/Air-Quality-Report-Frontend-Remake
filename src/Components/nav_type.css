@@ -1,0 +1,65 @@
+nav {
+  margin: 27px auto 0;
+  margin-top: 2rem;
+  position: relative;
+  width: 75%;
+  height: 50px;
+  /* background-color: rgba(94, 82, 187, 0.919); */
+  background-color: #ffffff3c;
+  /* background-color: ; */
+  border-radius: 8px;
+  font-size: 0;
+  margin-bottom: 1rem;
+  box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+nav a {
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all 0.5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 33%;
+}
+a:nth-child(2) {
+  width: 34%;
+}
+a:nth-child(3) {
+  width: 33%;
+}
+
+nav .start-F,
+a:nth-child(1):hover ~ .animation {
+  width: 33%;
+  left: 0;
+  background-color: #1abc9cb8;
+}
+nav .start-M,
+a:nth-child(2):hover ~ .animation {
+  width: 34%;
+  left: 34%;
+  background-color: #e74d3cc6;
+}
+nav .start-L,
+a:nth-child(3):hover ~ .animation {
+  width: 33%;
+  left: 67%;
+  background-color: #2192dddc;
+}

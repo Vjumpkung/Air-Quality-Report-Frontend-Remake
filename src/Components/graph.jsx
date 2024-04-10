@@ -3,7 +3,7 @@ import { useState } from "react";
 import { client } from "../server/axios";
 import LineGraph from "./linegraph";
 
-export default function Graph({ color_mode }) {
+export default function Graph() {
   const [lastTenMinLogs, setLastTenMinLogs] = useState([]);
   useEffect(() => {
     const fetchData = async () => {

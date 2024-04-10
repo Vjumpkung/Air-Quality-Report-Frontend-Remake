@@ -1,7 +1,8 @@
 body {
   margin: 0;
-
-  /* background-color: rgb(79, 79, 79); */
+  background: linear-gradient(-45deg, #e57b5a, #ec689bcb, #1294c3, #29d3ac);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -10,34 +11,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.dark {
+  background: linear-gradient(-45deg, #373737, #261826, #0d2834, #07382d);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 .App {
   text-align: center;
   font-family: "Prompt", sans-serif;
   width: 700px;
-  /* background-color: #282c34; */
 }
 
 .main_container {
   margin: auto;
   width: 75%;
-  /* height: 440px; */
-  /* max-width: 1200px; */
   border-radius: 1rem;
-
-  /* background-color: rgba(94, 82, 187, 0.919); */
-  /* background-color: azure; */
   position: relative;
   top: 1rem;
 
   box-shadow: 1px 3px 9px 0px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.25);
-  /* height: 100%; */
 }
 
 .s_container {
@@ -50,65 +45,6 @@ code {
   -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.25);
   background: linear-gradient(-45deg, #e57b5a, #ec689bcb, #1294c3, #29d3ac);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-}
-
-.s_container-red {
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  border-radius: 1rem;
-  position: relative;
-  box-shadow: 1px 3px 9px 0px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(
-    -45deg,
-    #e27553,
-    #e96730,
-    #f65321,
-    hsl(8, 98%, 50%)
-  );
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-}
-.s_container-blue {
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  border-radius: 1rem;
-  position: relative;
-  box-shadow: 1px 3px 9px 0px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(
-    -45deg,
-    #95c5ef,
-    #608da8,
-    #2699db,
-    hsl(205, 93%, 27%)
-  );
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-}
-
-.s_container-green {
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  border-radius: 1rem;
-  position: relative;
-  box-shadow: 1px 3px 9px 0px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.74);
-  background: linear-gradient(
-    -45deg,
-    #9ab340bc,
-    #378b33,
-    #0b7d269f,
-    hsla(108, 94%, 24%, 0.557)
-  );
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -128,24 +64,17 @@ code {
 }
 
 .mini_container {
-  /* margin: auto; */
-  /* margin-top: 2rem; */
-  /* margin-bottom:2rem;   */
   width: 35%;
   margin: auto;
   color: white;
   margin: 3px;
-  /* border-radius: ; */
-  /* background: linear-gradient(0deg, #6b60c1, #6b60c1), rgba(95, 87, 153, 0.919); */
   background-color: rgba(245, 245, 245, 0.224);
   border-radius: 1rem;
   box-shadow: 1px 3px 9px 0px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.25);
-  /* flex-direction: column; */
   display: inline-block;
   grid-template-columns: repeat(2, 1fr);
-  /* gap: 10000px; */
 }
 
 #bg_white {
@@ -160,10 +89,6 @@ code {
   color: rgba(240, 248, 255, 0.74);
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* position: relative; */
-  /* top: 10px; */
   width: 60%;
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
@@ -213,9 +138,6 @@ code {
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
   background-color: rgba(255, 255, 255, 0.33);
-  /* box-shadow: 1px 3px 9px 0px rgba(0, 0, 0, 0.25);
-  -webkit-box-shadow: 3px 3px 9px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 1px 3px 9px 5px rgba(0, 0, 0, 0.25); */
 }
 
 .remove_underline {
@@ -234,6 +156,11 @@ code {
 
 .transclucent {
   color: rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+}
+
+.transclucent-dark {
+  color: rgba(255, 255, 255, 0.75);
   font-weight: 700;
 }
 
